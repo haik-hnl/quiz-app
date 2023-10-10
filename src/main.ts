@@ -3,8 +3,9 @@ import PrimeVue from "primevue/config";
 import App from "./App.vue";
 import router from "./router";
 import "primevue/resources/themes/lara-light-indigo/theme.css";
-
+import ToastService from "primevue/toastservice";
 const app = createApp(App);
 app.use(router);
 app.use(PrimeVue);
+app.use(ToastService);
 app.mount("#app");

@@ -1,0 +1,47 @@
+[
+      {
+        "id": 1,
+        "question": "Welcher Berg ist der höchste Berg der Welt?",
+        "options": [
+          { "id": 0, "text": "a) Mount Everest", "isCorrect": true },
+          { "id": 1, "text": "b) Kilimandscharo", "isCorrect": false },
+          { "id": 2, "text": "c) Der Brocken", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Wie viele Oscars gewann der Film Titanic?",
+        "options": [
+          { "id": 0, "text": "a) 13", "isCorrect": false },
+          { "id": 1, "text": "b) 9", "isCorrect": false },
+          { "id": 2, "text": "c) 11", "isCorrect": true }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Wer war der erste Präsident der Vereinigten Staaten von Amerika?",
+        "options": [
+          { "id": 0, "text": "a) Thomas Jefferson", "isCorrect": false },
+          { "id": 1, "text": "b) George Washington", "isCorrect": true },
+          { "id": 2, "text": "c) Andrew Jackson", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Was ist ein Sonett?",
+        "options": [
+          { "id": 0, "text": "a) Eine Gedichtsform", "isCorrect": true },
+          { "id": 1, "text": "b) Ein musikalische Gattung", "isCorrect": false },
+          { "id": 2, "text": "c) Ein Schwert", "isCorrect": false }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Wer komponierte „Die Zauberflöte“?",
+        "options": [
+          { "id": 0, "text": "a) Joseph Haydn", "isCorrect": false },
+          { "id": 1, "text": "b) Wolfgang Amadeus Mozart", "isCorrect": true },
+          { "id": 2, "text": "c) Johann Sebastian Bach", "isCorrect": false }
+        ]
+      }
+    ]  
