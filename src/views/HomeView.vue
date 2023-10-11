@@ -50,6 +50,8 @@ const selectQuestion = (isCorrect?: boolean) => {
   if (!isCorrect) {
     showError();
     return;
+  } else {
+    showSuccess();
   }
 
   if (currentIndex.value <= quizData.length) {
@@ -75,10 +77,19 @@ const reloadPage = () => {
   window.location.reload();
 };
 
+const showSuccess = () => {
+  toast.add({
+    severity: "success",
+    summary: "Correct answer!",
+    detail: "You must be smart! :D",
+    life: 3000,
+  });
+};
+
 const showError = () => {
   toast.add({
     severity: "error",
-    summary: "Wrong Answer!",
+    summary: "Wrong answer!",
     detail: "Try again!",
     life: 3000,
   });
